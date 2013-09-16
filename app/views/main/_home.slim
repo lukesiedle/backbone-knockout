@@ -1,0 +1,6 @@
+.home data-bind="visible:App.r.__() == 'home'"
+	h1 This is home...
+
+	/ With binding sets the parent item to be used with all child elements
+	div data-bind="with:App.the.user"
+		a data-bind="attr:{ href:view().permalink }, click:App.r.routeAnchor" View my profile

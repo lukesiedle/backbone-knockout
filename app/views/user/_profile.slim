@@ -1,0 +1,5 @@
+.home data-bind="visible:App.r.__() == 'user_profile'"
+	div data-bind="with:App.the.user"
+		h1 data-bind="text:view().name"
+		img data-bind="attr:{src:view().profile_pic}"
+		p Jim's gender is: <span data-bind="text:view().gender || '...'"></span>

@@ -12,5 +12,11 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require turbolinks
-//= require_tree .
+//= require underscore.min
+//= require backbone.min
+//= require knockout.min
+//= require main.js
+//= require route.js
+//= require models/user.js
+//= require controllers/user.js
+//= require init.js

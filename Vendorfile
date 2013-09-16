@@ -1,0 +1,13 @@
+# DRY folders
+folder 'vendor/assets/javascripts' do
+	file 'underscore.min.js', 'https://raw.github.com/jashkenas/underscore/master/underscore-min.js'
+	file 'backbone.min.js', 'https://raw.github.com/jashkenas/backbone/master/backbone-min.js'
+	file 'backbone.paginator.js', 'http://cdnjs.cloudflare.com/ajax/libs/backbone.paginator/0.8/backbone.paginator.min.js'
+	file 'knockout.min.js', 'http://cdnjs.cloudflare.com/ajax/libs/knockout/2.3.0/knockout-min.js'
+	file 'masonry.js', 'http://masonry.desandro.com/masonry.pkgd.min.js'
+	file 'jresig.tmpl.js', 'https://gist.github.com/luke-siedle/6506714/raw/31c577e45d524b08de159d2a7c21f0294bbfc581/jresig.tmpl.js'
+end
+
+folder 'vendor/assets/stylesheets' do
+	file 'bootstrap.3.0.0.min.css', 'http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css'
+end

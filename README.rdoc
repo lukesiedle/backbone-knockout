@@ -3,3 +3,5 @@
 This is an example of Backbone/Knockout being used together to create a single page web app. 
 
 Vendorer gem handles JavaScript dependencies.
+
+Run "vendorer" when updating these dependencies.

@@ -1,4 +1,11 @@
 BackboneKnockout::Application.routes.draw do
+
+
+  # For a single page app, route everything to the same controller
+  root :to => 'main#index'
+  get '*path' => 'main#index'
+  
+
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
